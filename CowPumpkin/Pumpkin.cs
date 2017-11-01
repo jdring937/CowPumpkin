@@ -2,6 +2,7 @@
  * A halloween-themed demostration of interfaces
  * Bill Nicholson 
  * nicholdw@ucmail.uc.edu
+ * modified by Jeremy Ring 1 November 2017
  * *******************************************************/
 using System;
 using System.Collections.Generic;
@@ -17,9 +18,9 @@ namespace CowPumpkin {
         /// <summary>
         /// Decompose into an amorphous blob. This happens shortly after Halloween to all pumpkins
         /// </summary>
-        void Decompose();
+        String Decompose();
 
-        void Carve(String shape);
+        String Carve { get; set; }
 
         
     }

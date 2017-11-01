@@ -1,7 +1,8 @@
 ﻿/*********************************************************
  * A halloween-themed demostration of interfaces
- * Bill Nicholson
- * nicholdw@ucmail.uc.edu 
+ * Bill Nicholson 
+ * nicholdw@ucmail.uc.edu
+ * modified by Jeremy Ring 1 November 2017
  * *******************************************************/
 using System;
 using System.Collections.Generic;
@@ -14,9 +15,9 @@ namespace CowPumpkin {
         /// <summary>
         /// The breed of the cow
         /// </summary>
-        public Breed breed { get; set; }
+        public String breed { get; set; }
 
-        public Cow(Breed breed) {
+        public Cow(String breed) {
             this.breed = breed;
         }
 

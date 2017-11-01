@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*********************************************************
+ * A halloween-themed demostration of interfaces
+ * Bill Nicholson 
+ * nicholdw@ucmail.uc.edu
+ * modified by Jeremy Ring 1 November 2017
+ * *******************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,10 +23,10 @@ namespace CowPumpkin {
         public Breed(String breed) {
             SetBreed(breed);
         }
-        public String breed {
+        /*public String breed {
             get { return mBreed; }
             set { SetBreed(value); }
-        }
+        }*/
         private void SetBreed(String breed) {
             if (breed.Trim().Length > 0) {
                 this.mBreed = breed;
